@@ -20,7 +20,10 @@ y = torch.tensor([[2.0], [4.0], [6.0]])
 
 # nn.Linear(in_features, out_features)
 # Here: 1 input → 1 output
-model = nn.Linear(1, 1)
+def create_model():
+    return nn.Linear(1, 1)
+
+model = create_model()
 
 # Internally, this creates:
 # y = w*x + b
@@ -81,15 +84,18 @@ for epoch in range(totalIterations):
 # # # STEP 6: TEST MODEL
 # # # ============================================
 
-# # Test with new input
-test_input = 14.0
-test = torch.tensor([[test_input]])
+SD_PATH = "linear_reg_state.pth"
+torch.save(model.state_dict(), SD_PATH)  
 
-# # Model should predict ~28.0
-prediction = model(test)
+# # # Test with new input
+# test_input = 14.0
+# test = torch.tensor([[test_input]])
 
-print("\nTest Input: " + str(test_input))
-print("Predicted Output:", prediction.item())
+# # # Model should predict ~28.0
+# prediction = model(test)
+
+# print("\nTest Input: " + str(test_input))
+# print("Predicted Output:", prediction.item())
 
 ## END OF WORKING CODE
 

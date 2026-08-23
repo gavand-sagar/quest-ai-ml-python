@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "apu6HGLRZ3k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sagar\\source\\repos\\python-using-onnx\\python-using-onnx\\python-using-onnx.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sagar\\.nuget\\packages\\microsoft.ml.onnxruntime\\1.25.0\\microsoft.ml.onnxruntime.1.25.0.nupkg.sha512",
+    "C:\\Users\\Sagar\\.nuget\\packages\\microsoft.ml.onnxruntime.managed\\1.25.0\\microsoft.ml.onnxruntime.managed.1.25.0.nupkg.sha512",
+    "C:\\Users\\Sagar\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Sagar\\.nuget\\packages\\system.numerics.tensors\\9.0.0\\system.numerics.tensors.9.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://pkgs.dev.azure.com/CWSNext/AiNotesMaker/_packaging/CompanyPackages/nuget/v3/index.json.",
+      "projectPath": "C:\\Users\\Sagar\\source\\repos\\python-using-onnx\\python-using-onnx\\python-using-onnx.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Sagar\\source\\repos\\python-using-onnx\\python-using-onnx\\python-using-onnx.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://pkgs.dev.azure.com/CWSNext/_packaging/DemoFeed/nuget/v3/index.json.",
+      "projectPath": "C:\\Users\\Sagar\\source\\repos\\python-using-onnx\\python-using-onnx\\python-using-onnx.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Sagar\\source\\repos\\python-using-onnx\\python-using-onnx\\python-using-onnx.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
